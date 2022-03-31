@@ -53,3 +53,8 @@ section.ms_jumbotron {
     flex-direction: column;
     justify-content: flex-end;
 }
+
+/* SUB JUMBOTRON */
+section.ms_sub-jumbotron img {
+    width: 100%;
+}
