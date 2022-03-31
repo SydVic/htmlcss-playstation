@@ -102,3 +102,21 @@ section.ms_playstation-now {
 footer {
     background-color: #00439c;
 }
+
+
+/* da rivedere */
+ul {
+    list-style: none;
+}
+
+.ms_footer-play-logo {
+    width: 100px;
+}
+
+.ms_footer-globe-logo {
+    width: 20px;
+}
+
+.ms_footer-sie-logo {
+    width: 150px;
+}
