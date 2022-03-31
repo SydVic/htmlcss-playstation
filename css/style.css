@@ -2,3 +2,22 @@
 html {
     font-size: 100%;
 }
+
+/* HEADER */
+div.ms_navbar-top {
+    height: 30px;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+div.ms_navbar-top img {
+    height: 15px;
+}
+
+nav.ms_fixed {
+    top: 30px;
+}
