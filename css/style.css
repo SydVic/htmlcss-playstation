@@ -10,6 +10,10 @@ html {
     font-size: 100%;
 }
 
+img {
+    width: 100%;
+}
+
 .ms_txt-white {
     color: var(--mv_txt-white);
 }
@@ -26,7 +30,7 @@ div.ms_navbar-top {
 }
 
 div.ms_navbar-top img {
-    height: 15px;
+    width: 80px;
 }
 
 nav.ms_fixed {
