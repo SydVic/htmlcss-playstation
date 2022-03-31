@@ -76,3 +76,8 @@ section.ms_2th-jumbotron {
     /*test*/
     height: var(--mv_jumbotron-height)
 }
+
+/* NEW RELEASE */
+section.ms_new-release {
+    background-color: #1f1f1f;
+}
