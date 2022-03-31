@@ -21,3 +21,16 @@ div.ms_navbar-top img {
 nav.ms_fixed {
     top: 30px;
 }
+
+/* JUMBOTRON */
+section.jumbotron {
+    margin-top: 90px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    /*test*/
+    height: 800px;
+}
