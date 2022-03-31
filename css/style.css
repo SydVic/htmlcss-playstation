@@ -90,10 +90,20 @@ div.ms_jumbo-btn-wrapper a {
     border-radius: 20px;
 }
 
-
 /* SUB JUMBOTRON */
-section.ms_sub-jumbotron img {
+/* section.ms_sub-jumbotron img {
     width: 100%;
+} */
+
+div.ms_sub-jumbo-img {
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+div.ms_border.ms_active {
+    border: 3px solid #0072ce;
+    border-radius: 20px;
 }
 
 /* CONSOLE */
