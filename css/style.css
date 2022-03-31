@@ -62,3 +62,17 @@ section.ms_jumbotron {
 section.ms_sub-jumbotron img {
     width: 100%;
 }
+
+/* CONSOLE */
+
+/* 2TH JUMBOTRON */
+section.ms_2th-jumbotron {
+    margin-top: 100px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /*test*/
+    height: var(--mv_jumbotron-height)
+}
