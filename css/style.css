@@ -25,6 +25,19 @@ a {
     color: var(--mv_txt-white);
 }
 
+.ms_p-rel {
+    position: relative;
+}
+
+.ms_layover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .3);
+}
+
 div.ms_btn-blue {
     display: inline-block;
     border: 2px solid #2d64e6;
@@ -190,10 +203,37 @@ div.ms_section-txt-wrapper p {
 }
 
 div.ms_hidden-txt-wrapper {
-    color: #616161;
+    /* color: #616161; */
     font-weight: 600;
 }
 
+.ms_brd-b-active {
+    border-bottom: 2px solid #0072ce;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/*--------------------*/
+/* prova hover */
+div.ms_card-wrapper.ms_p-rel:hover .ms_layover {
+    display: none;
+}
+
+/* div.ms_card-wrapper.ms_p-rel:hover div.ms_brd-b-hover {
+    display: block;
+}
+
+div.ms_brd-b-hover {
+    border-bottom: 2px solid #0072ce;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+} */
+/* prova hover */
+/*--------------------*/
 /* 2TH JUMBOTRON */
 section.ms_2th-jumbotron {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
