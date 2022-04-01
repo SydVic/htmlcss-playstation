@@ -25,11 +25,24 @@ a {
     color: var(--mv_txt-white);
 }
 
-.ms_btn-blue a {
-    color: white;
+div.ms_btn-blue {
+    display: inline-block;
+    border: 2px solid #2d64e6;
+    border-radius: 22px;
     background-color: #2d64e6;
-    padding: .7rem 1rem;
+}
+
+div.ms_btn-blue a {
+    color: var(--mv_txt-white);
+    display: inline-block;
+    border: 2px solid #2d64e6;
+    background-color: #2d64e6;
+    padding: .2rem .7rem;
     border-radius: 20px;
+}
+
+div.ms_btn-blue:hover a {
+    border: 2px solid #ffffff;
 }
 
 /* HEADER */
@@ -65,11 +78,24 @@ nav.ms_fixed {
     top: 30px;
 }
 
-.ms_btn-black a {
+div.ms_btn-black {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 22px;
+    background-color: black;
+}
+
+div.ms_btn-black a {
+    display: inline-block;
     color: #ffffff;
     background-color: #000000;
-    padding: .7rem 1rem;
+    border: 2px solid #000000;
+    padding: .2rem .7rem;
     border-radius: 20px;
+}
+
+div.ms_btn-black:hover a {
+    border: 2px solid rgb(255, 255, 255);
 }
 
 header li {
@@ -108,11 +134,24 @@ div.ms_jumbo-txt-wrapper {
     margin-bottom: 2rem;
 }
 
-div.ms_jumbo-btn-wrapper a {
-    color: var(--mv_txt-white);
+div.ms_jumbo-btn {
+    display: inline-block;
+    border: 2px solid var(--mv_bgc-orange);
+    border-radius: 22px;
     background-color: var(--mv_bgc-orange);
-    padding: .7rem 1rem;
+}
+
+div.ms_jumbo-btn a {
+    color: var(--mv_txt-white);
+    display: inline-block;
+    border: 2px solid var(--mv_bgc-orange);
+    background-color: var(--mv_bgc-orange);
+    padding: .2rem .7rem;
     border-radius: 20px;
+}
+
+div.ms_jumbo-btn:hover a {
+    border: 2px solid rgb(0, 0, 0);
 }
 
 div.ms_sub-jumbo-img {
@@ -197,11 +236,24 @@ section.ms_playstation-plus p {
     margin: 1.5rem 0 2rem 0;
 }
 
+div.ms_btn-grey {
+    display: inline-block;
+    border: 2px solid #d9dadc;
+    border-radius: 22px;
+    background-color: #d9dadc;
+}
+
 div.ms_btn-grey a {
     color: #2d64e6;
+    display: inline-block;
+    border: 2px solid #d9dadc;
     background-color: #d9dadc;
-    padding: .7rem 1rem;
+    padding: .2rem .7rem;
     border-radius: 20px;
+}
+
+div.ms_btn-grey:hover a {
+    border: 2px solid #2d64e6;
 }
 
 /* PLAYSTATION STORE */
@@ -219,11 +271,24 @@ section.ms_playstation-now p {
     margin: 1.5rem 0 2rem 0;
 }
 
-.ms_btn-white a {
-    color: rgb(0, 0, 0);
+div.ms_btn-white {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 22px;
     background-color: #ffffff;
-    padding: .7rem 1rem;
+}
+
+div.ms_btn-white a {
+    color: #000000;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    padding: .2rem .7rem;
     border-radius: 20px;
+}
+
+div.ms_btn-white:hover a {
+    border: 2px solid #000000;
 }
 
 /* SOCIAL */
