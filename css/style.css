@@ -28,11 +28,25 @@ a {
 .ms_btn-blue a {
     color: white;
     background-color: #2d64e6;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     border-radius: 20px;
 }
 
 /* HEADER */
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+img.ms_chevron-down {
+    width: 10px;
+}
+
 div.ms_navbar-top {
     height: 30px;
     width: 100%;
@@ -49,6 +63,17 @@ div.ms_navbar-top img {
 
 nav.ms_fixed {
     top: 30px;
+}
+
+.ms_btn-black a {
+    color: #ffffff;
+    background-color: #000000;
+    padding: .7rem 1rem;
+    border-radius: 20px;
+}
+
+header li {
+    margin-left: 1rem;
 }
 
 /* JUMBOTRON */
@@ -86,7 +111,7 @@ div.ms_jumbo-txt-wrapper {
 div.ms_jumbo-btn-wrapper a {
     color: var(--mv_txt-white);
     background-color: var(--mv_bgc-orange);
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     border-radius: 20px;
 }
 
@@ -175,7 +200,7 @@ section.ms_playstation-plus p {
 div.ms_btn-grey a {
     color: #2d64e6;
     background-color: #d9dadc;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     border-radius: 20px;
 }
 
@@ -197,7 +222,7 @@ section.ms_playstation-now p {
 .ms_btn-white a {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    padding: .5rem 1rem;
+    padding: .7rem 1rem;
     border-radius: 20px;
 }
 
