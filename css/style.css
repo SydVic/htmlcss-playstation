@@ -211,20 +211,39 @@ footer {
     background-color: #00439c;
 }
 
+footer a {
+    color: #ffffff;
+}
 
-/* da rivedere */
+footer li {
+    margin-bottom: .5rem;
+}
+
 ul {
     list-style: none;
 }
 
 .ms_footer-play-logo {
     width: 100px;
+    position: relative;
 }
 
-.ms_footer-globe-logo {
+.ms_footer-play-logo span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: .7rem;
+}
+
+.ms_footer-globe-logo img {
     width: 20px;
 }
 
-.ms_footer-sie-logo {
+
+.ms_footer-sie-logo img {
     width: 150px;
+}
+
+a.ms_info {
+    text-decoration: underline;
 }
