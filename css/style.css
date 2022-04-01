@@ -1,6 +1,4 @@
 :root {
-    /* SIZES */
-    --mv_jumbotron-height: 700px;
     /* COLORS */
     --mv_txt-white: #ffffff;
     --mv_bgc-orange: #cd3d0f;
@@ -104,6 +102,10 @@ div.ms_border.ms_active {
 }
 
 /* CONSOLE */
+div.ms_section-txt-wrapper {
+    font-weight: 600;
+}
+
 div.ms_section-txt-wrapper h6 {
     text-transform: uppercase;
     color: #0072ce;
@@ -113,22 +115,27 @@ div.ms_section-txt-wrapper h6 {
 
 div.ms_section-txt-wrapper h2 {
     font-size: 2.5rem;
+    font-weight: bold;
 }
 
 div.ms_section-txt-wrapper p {
     font-size: 1.2rem;
-    font-weight: 500;
     color: #727272;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+}
+
+div.ms_hidden-txt-wrapper {
+    color: #616161;
+    font-weight: 600;
 }
 
 /* 2TH JUMBOTRON */
 section.ms_2th-jumbotron {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .ms_2th-jumbo-container {
@@ -138,6 +145,16 @@ section.ms_2th-jumbotron {
 /* NEW RELEASE */
 section.ms_new-release {
     background-color: #1f1f1f;
+    font-weight: 600;
+}
+
+section.ms_new-release p.ms_subtitle {
+    font-size: 1.5rem;
+}
+
+section.ms_new-release .ms_img-wrapper {
+    overflow: hidden;
+    border-radius: 20px;
 }
 
 /* PLAYSTATION 4 */
@@ -147,11 +164,34 @@ section.ms_playstation-plus {
     background-color: #bebcbb;
 }
 
+div.ms_ps-plus-img {
+    width: 60%;
+}
+
+section.ms_playstation-plus p {
+    margin: 1.5rem 0 2rem 0;
+}
+
+div.ms_btn-grey a {
+    color: #2d64e6;
+    background-color: #d9dadc;
+    padding: .5rem 1rem;
+    border-radius: 20px;
+}
+
 /* PLAYSTATION STORE */
 
 /* PLAYSTATION NOW */
 section.ms_playstation-now {
     background-color: #161c3b;
+}
+
+div.ms_ps-now-img {
+    width: 60%;
+}
+
+section.ms_playstation-now p {
+    margin: 1.5rem 0 2rem 0;
 }
 
 /* SOCIAL */
