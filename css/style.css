@@ -112,7 +112,16 @@ div.ms_btn-black:hover a {
 }
 
 header li {
-    margin-left: 1rem;
+    margin-left: .5rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0;
+}
+
+/* DROPDOWN MENU */
+.dropdown-menu {
+    width: 100%;
 }
 
 /* JUMBOTRON */
