@@ -174,7 +174,6 @@ div.ms_sub-jumbo-img {
     border: 2px solid transparent;
     border-radius: 20px;
     cursor: pointer;
-    /* position: relative; */
     transition: all 1s;
 }
 
@@ -186,31 +185,6 @@ div.ms_sub-jumbo-img:hover {
     outline: 3px solid #0072ce;
     offset: 3px;
 }
-
-
-/* div.ms_border.ms_active {
-    border: 3px solid #0072ce;
-    border-radius: 20px;
-    position: relative;
-} */
-
-/* ANIMATION */
-/* @keyframes ms_hover-up {
-    0% {
-        bottom: 0px;
-    }
-    50%{
-        bottom: 15px;
-    }
-    100% {
-        bottom: 0px;
-    }
-}
-
-div.ms_img-wrapper.ms_sub-jumbo-img:hover {
-    animation-name: ms_hover-up;
-    animation-duration: 1s;
-} */
 
 /* CONSOLE */
 div.ms_section-txt-wrapper {
@@ -237,7 +211,6 @@ div.ms_section-txt-wrapper p {
 }
 
 div.ms_hidden-txt-wrapper {
-    /* color: #616161; */
     font-weight: 600;
 }
 
@@ -248,8 +221,7 @@ div.ms_hidden-txt-wrapper {
     left: 0;
     width: 100%;
 }
-/*--------------------*/
-/* prova hover */
+
 div.ms_card-wrapper.ms_p-rel:hover .ms_layover {
     display: none;
 }
