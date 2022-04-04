@@ -1,4 +1,6 @@
 :root {
+    /* SIZES */
+    --mv_navbar-top: 30px;
     /* COLORS */
     --mv_txt-white: #ffffff;
     --mv_bgc-orange: #cd3d0f;
@@ -15,6 +17,11 @@ body {
 
 img {
     width: 100%;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 
 a {
@@ -74,7 +81,7 @@ img.ms_chevron-down {
 }
 
 div.ms_navbar-top {
-    height: 30px;
+    height: var(--mv_navbar-top);
     width: 100%;
     background-color: #000000;
     position: fixed;
@@ -111,8 +118,8 @@ div.ms_btn-black:hover a {
     border: 2px solid rgb(255, 255, 255);
 }
 
-header li {
-    margin-left: .5rem;
+header li.nav-item.dropdown {
+    margin-left: .7rem;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -120,9 +127,41 @@ header li {
 }
 
 /* DROPDOWN MENU */
-.dropdown-menu {
-    width: 100%;
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: calc(var(--mv_navbar-top) + 74px);
+    border-radius: 0;
+    border: none;
+    text-align: center;
 }
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+img.ms_dropdown-ico {
+    width: 70px;
+}
+
+hr.dropdown-divider {
+    width: 100vw;
+    margin: 0;
+}
+
+ul.ms_games-links {
+    list-style: circle;
+}
+
+/* ul.dropdown-menu.show {
+    display: inline-block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 56px;
+} */
 
 /* JUMBOTRON */
 section.ms_jumbotron {
@@ -348,10 +387,6 @@ footer a {
 
 footer li {
     margin-bottom: .5rem;
-}
-
-ul {
-    list-style: none;
 }
 
 .ms_footer-play-logo {
