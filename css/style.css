@@ -118,7 +118,7 @@ div.ms_btn-black:hover a {
     border: 2px solid rgb(255, 255, 255);
 }
 
-header li.nav-item.dropdown {
+header li {
     margin-left: .7rem;
 }
 
@@ -128,13 +128,18 @@ header li.nav-item.dropdown {
 
 /* DROPDOWN MENU */
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: calc(var(--mv_navbar-top) + 74px);
-    border-radius: 0;
     border: none;
     text-align: center;
+    border-radius: 0;
+}
+
+@media all and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: calc(var(--mv_navbar-top) + 74px);
+    }
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu li {
@@ -148,20 +153,11 @@ img.ms_dropdown-ico {
 
 hr.dropdown-divider {
     width: 100vw;
-    margin: 0;
 }
 
-ul.ms_games-links {
-    list-style: circle;
+ul.ms_ul-links a {
+    color: #000000;
 }
-
-/* ul.dropdown-menu.show {
-    display: inline-block;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 56px;
-} */
 
 /* JUMBOTRON */
 section.ms_jumbotron {
